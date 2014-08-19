@@ -2,11 +2,14 @@ package com.topmonks.assignment.mybatis;
 
 import java.util.List;
 
+import javax.inject.Named;
+
 import org.apache.ibatis.session.SqlSession;
 
 import com.topmonks.assignment.mappers.UserMapper;
 import com.topmonks.assignment.users.User;
 
+@Named
 public class UserService implements UserMapper {
 
 	@Override

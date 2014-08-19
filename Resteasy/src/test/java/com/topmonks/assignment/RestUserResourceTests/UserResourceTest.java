@@ -53,4 +53,18 @@ public class UserResourceTest {
 		String statusXML = response.getEntity();
 		Assert.assertNotNull(statusXML);
 	}
+	
+	@Test
+	public void testUpdateUser() throws Exception{
+		User user = new User();
+		user.setUserId(3);
+		user.setFirstName("User3");
+		user.setLastName("User last");
+		user.setEmailId("user3@gmail.com");
+		ClientRequest request = new ClientRequest(ROOT_URL + "users/update");
+		request.body("application/xml", user);
+		ClientResponse<String> response = request.post(String.class);
+		String statusXML = response.getEntity();
+		Assert.assertNotNull(statusXML);
+	}
 }
