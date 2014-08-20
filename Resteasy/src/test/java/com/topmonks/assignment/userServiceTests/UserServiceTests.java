@@ -28,7 +28,16 @@ public class UserServiceTests {
 
 	@Test
 	public void testGetUserById() {
-		User user = userService.getUserById(1);
+		User user = new User();
+		user.setUserId(1);
+		user.setEmailId("test_email_" + System.currentTimeMillis()
+				+ "@gmail.com");
+		user.setFirstName("TestFirstName");	
+		user.setLastName("TestLastName");
+
+		userService.insertUser(user);
+		
+		user = userService.getUserById(1);
 		Assert.assertNotNull(user);
 		System.out.println(user);
 	}
@@ -46,6 +55,7 @@ public class UserServiceTests {
 	@Test
 	public void testInsertUser() {
 		User user = new User();
+		user.setUserId(10);
 		user.setEmailId("test_email_" + System.currentTimeMillis()
 				+ "@gmail.com");
 		user.setFirstName("TestFirstName");	
@@ -63,8 +73,16 @@ public class UserServiceTests {
 
 	@Test
 	public void testUpdateUser() {
+		User user = new User();
+		user.setUserId(2);
+		user.setEmailId("test_email_" + System.currentTimeMillis()
+				+ "@gmail.com");
+		user.setFirstName("TestFirstName");	
+		user.setLastName("TestLastName");
+		userService.insertUser(user);
+		
 		long timestamp = System.currentTimeMillis();
-		User user = userService.getUserById(2);
+		user = userService.getUserById(2);
 		user.setFirstName("TestFirstName" + timestamp);
 		user.setLastName("TestLastName" + timestamp);
 		user.setEmailId("TestEmailId" + timestamp);
@@ -76,7 +94,14 @@ public class UserServiceTests {
 
 	@Test
 	public void testDeleteUser() {
-		User user = userService.getUserById(4);
+		User user = new User();
+		user.setUserId(14);
+		user.setEmailId("test_email_" + System.currentTimeMillis()
+				+ "@gmail.com");
+		user.setFirstName("TestFirstName");	
+		user.setLastName("TestLastName");
+		userService.insertUser(user);
+		
 		userService.deleteUser(user.getUserId());
 		User deletedUser = userService.getUserById(4);
 		Assert.assertNull(deletedUser);

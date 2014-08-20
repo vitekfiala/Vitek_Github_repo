@@ -2,10 +2,9 @@
     <wb-module deploy-name="Resteasy">
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
-        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/test/java"/>
-        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/test/resources"/>
-        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
-        <property name="context-root" value="RESTfulExample"/>
+        <wb-resource deploy-path="/" source-path="/target/m2e-wtp/web-resources"/>
+        <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
         <property name="java-output-path" value="/Resteasy/target/classes"/>
+        <property name="context-root" value="resteasy_spring_p1"/>
     </wb-module>
 </project-modules>

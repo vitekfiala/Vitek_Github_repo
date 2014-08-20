@@ -14,6 +14,15 @@ public class User {
 
 	public User() {}
 
+	public User(Integer userId, String emailId, String firstName,
+			String lastName) {
+		super();
+		this.userId = userId;
+		this.emailId = emailId;
+		this.firstName = firstName;
+		this.lastName = lastName;
+	}
+
 	@Override
 	public String toString() {
 		return "User [userId=" + userId + ", emailId=" + emailId

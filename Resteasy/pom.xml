@@ -10,6 +10,19 @@ http://maven.apache.org/maven-v4_0_0.xsd">
 	<version>1.0</version>
 	<name>RESTEasy Spring - Tutorial - Part 1</name>
 
+	<build>
+		<plugins>
+			<plugin>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>2.0.2</version>
+				<configuration>
+					<source>1.7</source>
+					<target>1.7</target>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+
 	<dependencies>
 		<!-- JUnit Test -->
 		<dependency>
@@ -54,6 +67,12 @@ http://maven.apache.org/maven-v4_0_0.xsd">
 			<artifactId>javax.inject</artifactId>
 			<version>1</version>
 		</dependency>
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>javax.servlet-api</artifactId>
+			<version>3.1.0</version>
+			<scope>provided</scope>
+		</dependency>
 
 		<!-- RESTEasy -->
 		<dependency>
@@ -81,6 +100,12 @@ http://maven.apache.org/maven-v4_0_0.xsd">
 			<artifactId>resteasy-jaxb-provider</artifactId>
 			<version>3.0.8.Final</version>
 		</dependency>
+		<dependency>
+			<groupId>org.jboss.resteasy</groupId>
+			<artifactId>resteasy-jsapi</artifactId>
+			<version>3.0.8.Final</version>
+		</dependency>
+
 
 		<!-- H2 DB -->
 		<dependency>

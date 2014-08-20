@@ -1,0 +1,45 @@
+<html>
+<head>
+<title>Get User by ID</title>
+<link rel="stylesheet" href="./css/styles.css" type="text/css" />
+<!-- This will include the whole javascript file including ajax handling  -->
+<script lang="javascript" src="./js"></script>
+
+<!-- Write the javascript code for accessing REST APIs -->
+<script lang="javascript">
+	function getUserForm(id) {
+		//Collect input from html page
+		
+		var xmlHttp = getXmlHttp();
+		
+	    xmlHttp.onreadystatechange=function()
+	    {
+	        if (xmlHttp.readyState==4)
+	        {
+	            alert("Operation complete.");
+	        }
+	    }
+
+	    xmlHttp.open("GET", "/rest/users/" + id, true);
+	    xmlHttp.send(null);
+	}
+</script>
+</head>
+<body>
+	<h1>Get User by ID</h1>
+	<form name="GetUser">
+		<table border="0">
+			<tr>
+				<td>ID:</td>
+				<td><input type="text" name="id"></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td><input type="button" value="Get"
+					onClick="addUpdateBook(GetUserForm.id.value)">
+				</td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>
