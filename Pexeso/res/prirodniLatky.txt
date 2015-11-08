@@ -1,0 +1,24 @@
+﻿adenin;adenin.sdf
+amylopektin;amylopektin.mol
+amylosa;amylosa.pdb
+ATP;ATP.sdf
+cytosin;cytosin.sdf
+fruktoza;fruktoza.sdf
+glukoza;glukoza.sdf
+guanin;guanin.sdf
+cholesterol;cholesterol.sdf
+izopren;izopren.sdf
+kofein;kofein.sdf
+menthol;menthol.sdf
+morfium;morfium.sdf
+nikotin;nikotin.sdf
+olej;olej.sdf
+sacharosa;sacharosa.sdf
+testosteron;testosteron.sdf
+thymin;thymin.sdf
+tuk;tuk.cgi
+uracil;uracil.sdf
+vitamín A;vitaminA.sdf
+vitamín B1;vitaminB1.sdf
+vitamín C;vitaminC.sdf
+vitamín D;vitaminD.sdf

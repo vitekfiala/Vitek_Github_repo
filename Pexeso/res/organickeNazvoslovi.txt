@@ -1,0 +1,42 @@
+﻿butan;butane.pdb
+ethen;ethen.sdf
+metan;metan.sdf
+ethan;ethan.sdf
+propan;propan.sdf
+but-1-en;but-1-en.sdf
+Z-2-buten (cis);Z-2-buten.sdf
+E-2-buten (trans);E-2-buten.sdf
+pent-1-en;pent-1-en.sdf
+acetylen;acetylen.sdf
+cyklopropan;cyklopropan.sdf
+cyklobutan;cyklobutan.sdf
+cyklohexan;cykloxehan.sdf
+cyklohexanon;cyklohexanon.sdf
+naftalen;naftalen.sdf
+metanol;metanol.sdf
+ethanol;ethanol.sdf
+propan-2-ol;propan-2-ol.sdf
+formaldehyd;formaldehyd.sdf
+acetaldehyd;acetaldehyd.sdf
+aceton;aceton.sdf
+kyselina mravenčí;kyselina_mravenci.sdf
+kyselina octová;kyselina_octova.sdf
+kyselina šťavelová;kyselina_stavelova.sdf
+kyselina malonová;kyselina_malonova.sdf
+kyselina fumarová;kyselina_fumarova.sdf
+kyselina maleinová;kyselina maleinova.sdf
+glycerol;glycerol.sdf
+ethyl acetát;ethyl_acetat.sdf
+amid kyseliny octové;amid_kyseliny_octove.sdf
+anhydrid kyseliny octové;anhydrid_kyseliny_octove.sdf
+kyselina tereftalová;kyselina_tereftalova.sdf
+anhydrid kyseliny ftalové;anhydrid_kyseliny_ftalove.sdf
+toluen;toluen.sdf
+2,4,6-trinitrotoluen;2,4,6-trinitrotoluen.cgi
+kyselina benzoová;kyselina_benzoova.cgi
+nitril kyseliny octové;nitril_kyseliny_octove.cgi
+methylamin;methylamin.sdf
+benzen;benzen.sdf
+ethylamin;ethylamin.cgi
+diethylether;diethylether.sdf
+chloroform;chloroform.sdf

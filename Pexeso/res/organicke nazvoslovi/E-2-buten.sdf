@@ -1,0 +1,53 @@
+2-Butene, (E)-
+  NIST    05100211093D 1   1.00000     0.00000
+Copyright by the U.S. Sec. Commerce on behalf of U.S.A. All rights reserved.
+ 12 11  0     0  0              1 v2000
+    1.9787    0.9171    0.8755 C   0  0  0  0  0  0           0  0  0
+    2.9473    1.6691    1.4011 C   0  0  0  0  0  0           0  0  0
+    4.3836    1.3350    1.2832 C   0  0  0  0  0  0           0  0  0
+    0.5423    1.2506    0.9941 C   0  0  0  0  0  0           0  0  0
+    2.2147    0.0000    0.3213 H   0  0  0  0  0  0           0  0  0
+    2.7110    2.5861    1.9554 H   0  0  0  0  0  0           0  0  0
+    4.5642    0.4141    0.7128 H   0  0  0  0  0  0           0  0  0
+    4.9284    2.1469    0.7827 H   0  0  0  0  0  0           0  0  0
+    4.8302    1.2016    2.2777 H   0  0  0  0  0  0           0  0  0
+    0.0930    1.3765    0.0000 H   0  0  0  0  0  0           0  0  0
+    0.0000    0.4413    1.5014 H   0  0  0  0  0  0           0  0  0
+    0.3617    2.1749    1.5588 H   0  0  0  0  0  0           0  0  0
+  1  2  2  0     0  0
+  1  4  1  0     0  0
+  1  5  1  0     0  0
+  2  3  1  0     0  0
+  2  6  1  0     0  0
+  3  7  1  0     0  0
+  3  8  1  0     0  0
+  3  9  1  0     0  0
+  4 10  1  0     0  0
+  4 11  1  0     0  0
+  4 12  1  0     0  0
+M  END
+>  <DATE>
+2002-05-10
+
+>  <COPYRIGHT>
+Collection (C) 2012 copyright by the U.S. Secretary of Commerce on behalf of the United States of America. All rights reserved.
+
+>  <NAME>
+2-Butene, (E)-
+
+>  <CAS.NUMBER>
+624-64-6
+
+>  <METHOD>
+PM3
+
+>  <CONTRIBUTOR>
+Karl Irikura
+
+>  <REVIEWER>
+Karl Irikura and Joel Liebman
+
+>  <STATUS>
+Checked
+
+$$$$

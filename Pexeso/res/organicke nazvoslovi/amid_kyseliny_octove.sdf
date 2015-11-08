@@ -1,0 +1,47 @@
+Acetamide
+  NIST    05100211093D 1   1.00000     0.00000
+Copyright by the U.S. Sec. Commerce on behalf of U.S.A. All rights reserved.
+  9  8  0     0  0              1 v2000
+    2.5163    2.5205    0.8845 C   0  0  0  0  0  0           0  0  0
+    1.9999    1.1078    0.9274 C   0  0  0  0  0  0           0  0  0
+    0.6171    0.9119    0.9647 N   0  0  0  0  0  0           0  0  0
+    2.7001    0.1012    0.9325 O   0  0  0  0  0  0           0  0  0
+    2.1447    3.0549    0.0000 H   0  0  0  0  0  0           0  0  0
+    2.2055    3.0849    1.7738 H   0  0  0  0  0  0           0  0  0
+    3.6135    2.5422    0.8466 H   0  0  0  0  0  0           0  0  0
+    0.2303    0.0000    0.9946 H   0  0  0  0  0  0           0  0  0
+    0.0000    1.6853    0.9632 H   0  0  0  0  0  0           0  0  0
+  1  2  1  0     0  0
+  1  5  1  0     0  0
+  1  6  1  0     0  0
+  1  7  1  0     0  0
+  2  3  1  0     0  0
+  2  4  2  0     0  0
+  3  8  1  0     0  0
+  3  9  1  0     0  0
+M  END
+>  <DATE>
+2002-05-10
+
+>  <COPYRIGHT>
+Collection (C) 2012 copyright by the U.S. Secretary of Commerce on behalf of the United States of America. All rights reserved.
+
+>  <NAME>
+Acetamide
+
+>  <CAS.NUMBER>
+60-35-5
+
+>  <METHOD>
+PM3
+
+>  <CONTRIBUTOR>
+Karl Irikura
+
+>  <REVIEWER>
+Karl Irikura and Joel Liebman
+
+>  <STATUS>
+Checked
+
+$$$$

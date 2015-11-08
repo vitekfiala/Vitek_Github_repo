@@ -1,0 +1,51 @@
+Propane
+  NIST    05100211103D 1   1.00000     0.00000
+Copyright by the U.S. Sec. Commerce on behalf of U.S.A. All rights reserved.
+ 11 10  0     0  0              1 v2000
+    3.3461    1.6436    1.3326 C   0  0  0  0  0  0           0  0  0
+    2.0042    1.0740    0.9307 C   0  0  0  0  0  0           0  0  0
+    0.9734    1.2486    2.0232 C   0  0  0  0  0  0           0  0  0
+    3.7393    1.1540    2.2333 H   0  0  0  0  0  0           0  0  0
+    3.2805    2.7182    1.5491 H   0  0  0  0  0  0           0  0  0
+    4.0907    1.5138    0.5370 H   0  0  0  0  0  0           0  0  0
+    1.6524    1.5612    0.0000 H   0  0  0  0  0  0           0  0  0
+    2.1104    0.0000    0.6811 H   0  0  0  0  0  0           0  0  0
+    0.0000    0.8391    1.7246 H   0  0  0  0  0  0           0  0  0
+    0.8224    2.3078    2.2707 H   0  0  0  0  0  0           0  0  0
+    1.2746    0.7385    2.9479 H   0  0  0  0  0  0           0  0  0
+  1  2  1  0     0  0
+  1  4  1  0     0  0
+  1  5  1  0     0  0
+  1  6  1  0     0  0
+  2  3  1  0     0  0
+  2  7  1  0     0  0
+  2  8  1  0     0  0
+  3  9  1  0     0  0
+  3 10  1  0     0  0
+  3 11  1  0     0  0
+M  END
+>  <DATE>
+2002-05-10
+
+>  <COPYRIGHT>
+Collection (C) 2012 copyright by the U.S. Secretary of Commerce on behalf of the United States of America. All rights reserved.
+
+>  <NAME>
+Propane
+
+>  <CAS.NUMBER>
+74-98-6
+
+>  <METHOD>
+PM3
+
+>  <CONTRIBUTOR>
+Karl Irikura
+
+>  <REVIEWER>
+Karl Irikura and Joel Liebman
+
+>  <STATUS>
+Checked
+
+$$$$

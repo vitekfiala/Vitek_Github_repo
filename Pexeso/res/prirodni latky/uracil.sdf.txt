@@ -1,0 +1,1 @@
+﻿Je to nukleová báze pyrimidinového typu. Vyskytuje se v RNA. V DNA je nahrazena thyminem. Tato báze je komplementární s adeninem.

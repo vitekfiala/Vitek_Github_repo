@@ -1,0 +1,45 @@
+Oxalic acid
+  NIST    05100211083D 1   1.00000     0.00000
+Copyright by the U.S. Sec. Commerce on behalf of U.S.A. All rights reserved.
+  8  7  0     0  0              1 v2000
+    1.9005    2.1709    0.0973 C   0  0  0  0  0  0           0  0  0
+    3.0765    1.2091    0.1397 C   0  0  0  0  0  0           0  0  0
+    4.2815    1.8100    0.0614 O   0  0  0  0  0  0           0  0  0
+    3.0594    0.0000    0.2324 O   0  0  0  0  0  0           0  0  0
+    0.6963    1.5692    0.1807 O   0  0  0  0  0  0           0  0  0
+    1.9158    3.3796    0.0000 O   0  0  0  0  0  0           0  0  0
+    4.9773    1.1600    0.0925 H   0  0  0  0  0  0           0  0  0
+    0.0000    2.2189    0.1536 H   0  0  0  0  0  0           0  0  0
+  1  2  1  0     0  0
+  1  5  1  0     0  0
+  1  6  2  0     0  0
+  2  3  1  0     0  0
+  2  4  2  0     0  0
+  3  7  1  0     0  0
+  5  8  1  0     0  0
+M  END
+>  <DATE>
+2002-05-10
+
+>  <COPYRIGHT>
+Collection (C) 2012 copyright by the U.S. Secretary of Commerce on behalf of the United States of America. All rights reserved.
+
+>  <NAME>
+Oxalic acid
+
+>  <CAS.NUMBER>
+144-62-7
+
+>  <METHOD>
+PM3
+
+>  <CONTRIBUTOR>
+Karl Irikura
+
+>  <REVIEWER>
+Karl Irikura and Joel Liebman
+
+>  <STATUS>
+Checked
+
+$$$$

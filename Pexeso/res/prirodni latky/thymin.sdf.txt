@@ -1,0 +1,1 @@
+﻿Je to nukleová báze pyrimidinového typu. Vyskytuje se v DNA. V RNA je nahrazena uracilem. Tato báze je komplementární s adeninem.
