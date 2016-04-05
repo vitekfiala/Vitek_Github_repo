@@ -31,7 +31,7 @@ public class InitialGui {
 				| IllegalAccessException | UnsupportedLookAndFeelException e) {
 			e.printStackTrace();
 		}
-		frame = new JFrame("Chemick� 3D pexeso");
+		frame = new JFrame("Chemické 3D pexeso");
         frame.addWindowListener(new AppCloser());
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         
