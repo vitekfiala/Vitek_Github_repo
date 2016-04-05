@@ -31,7 +31,7 @@ public class InitialGui {
 				| IllegalAccessException | UnsupportedLookAndFeelException e) {
 			e.printStackTrace();
 		}
-		frame = new JFrame("Chemické 3D pexeso");
+		frame = new JFrame("Chemickï¿½ 3D pexeso");
         frame.addWindowListener(new AppCloser());
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         
@@ -39,7 +39,7 @@ public class InitialGui {
         
         initialPanel = new InitialPanel();
         
-		autor = new JLabel("autor:  Vít Fiala (vit.fiala@gmail.com)", SwingConstants.CENTER);
+		autor = new JLabel("autor:  VÃ­t Fiala (vit.fiala@gmail.com)", SwingConstants.CENTER);
 		autor.setFont(new Font("Serif", Font.PLAIN, 15));				
         
 		panel.add(initialPanel, BorderLayout.CENTER);
