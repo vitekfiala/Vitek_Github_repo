@@ -40,7 +40,7 @@ public class WinningDialog1Hrac extends JDialog {
 		naPocetKol.setFont(font);		
 	    texty.add(naPocetKol);
 	    
-	    JLabel chybneOtocenych = new JLabel(chyby+" krát se stalo, že jsi měl vědět, kde je správná kartička, protože si ji už viděl.");	    
+	    JLabel chybneOtocenych = new JLabel(chyby+" krát se stalo, že jsi měl vědět, kde je správná kartička, protože jsi ji už viděl.");	    
 	    chybneOtocenych.setFont(font);		
 	    texty.add(chybneOtocenych);
 	    
