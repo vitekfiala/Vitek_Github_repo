@@ -146,8 +146,7 @@ public class PexesoGamePanel extends JPanel {
 			return popis.toString();				
 		}
 		catch (IOException e){
-			e.printStackTrace();
-			return "";
+			return "Nepovedlo se načíst popis molekuly.";
 		}
 	}
 

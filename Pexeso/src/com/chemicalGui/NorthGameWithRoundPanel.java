@@ -77,11 +77,11 @@ public class NorthGameWithRoundPanel extends JPanel {
 	}
 	
 	private String getUdajHrace() {
-		return "Score: "+scorePrvniho+ ", Tohle jsi měl vědět: "+pocetChybnych ;
+		return "Skóre: "+scorePrvniho+ ", Tohle jsi měl(a) vědět: "+pocetChybnych ;
 	}
 
 	private String getUdajeHracu() {
-		return "Score: 1. hráč: "+scorePrvniho+", 2. hráč: "+scoreDruhyho+ "      ";
+		return "Skóre: 1. hráč: "+scorePrvniho+", 2. hráč: "+scoreDruhyho+ "      ";
 	}
 
 	public void setRoundLabel(int round){

@@ -40,7 +40,7 @@ public class WinningDialog1Hrac extends JDialog {
 		naPocetKol.setFont(font);		
 	    texty.add(naPocetKol);
 	    
-	    JLabel chybneOtocenych = new JLabel(chyby+" krát se stalo, že jsi měl vědět, kde je správná kartička, protože jsi ji už viděl.");	    
+	    JLabel chybneOtocenych = new JLabel(chyby+" krát se stalo, že jsi měl(a) vědět, kde je správná kartička, protože jsi ji už viděl(a).");	    
 	    chybneOtocenych.setFont(font);		
 	    texty.add(chybneOtocenych);
 	    
@@ -48,14 +48,14 @@ public class WinningDialog1Hrac extends JDialog {
 		long seconds = (cas / 1000) % 60;
 		String time = String.format("%d:%02d", minutes, seconds);
 	    
-	    JLabel casLbl = new JLabel("Hru jsi dokončil za "+ time +".");	    
+	    JLabel casLbl = new JLabel("Hru jsi dokončil(a) za "+ time +".");	    
 	    casLbl.setFont(font);		
 	    texty.add(casLbl);
 	    
 	    // TODO konecny pocet bodu
 	    double pocetBodu=(correctlyFound * correctlyFound * 300 / Math.sqrt(cas/1000))-200*chyby;
 	    
-	    JLabel bodyLbl = new JLabel("Získal jsi celkem "+ (int)pocetBodu+" bodů.");	    
+	    JLabel bodyLbl = new JLabel("Získal(a) jsi celkem "+ (int)pocetBodu+" bodů.");	    
 	    bodyLbl.setFont(font);		
 	    texty.add(bodyLbl);
 	    

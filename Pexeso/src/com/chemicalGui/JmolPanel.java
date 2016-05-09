@@ -64,7 +64,7 @@ class JmolPanel extends JPanel {
 				initializingScript=popis.toString();		
 				viewer.script(initializingScript);							   
 			} catch (IOException e) {
-				System.out.println(e);
+		    	Logger.error(e.getMessage());
 			}
 			finally{
 				initializingScript = initializingScript+"frank off; set background WHITE; set scriptQueue ON";
