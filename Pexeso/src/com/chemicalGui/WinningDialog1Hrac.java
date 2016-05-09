@@ -98,6 +98,6 @@ public class WinningDialog1Hrac extends JDialog {
 	    getContentPane().add(texty,"Center");
 	    getContentPane().add(p2, "South");
 
-	    setSize(840, 360);
+	    setSize(900, 360);
 	  }
 }
