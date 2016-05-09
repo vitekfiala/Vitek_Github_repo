@@ -4,8 +4,8 @@ metan;metan.sdf
 ethan;ethan.sdf
 propan;propan.sdf
 but-1-en;but-1-en.sdf
-Z-2-buten (cis);Z-2-buten.sdf
-E-2-buten (trans);E-2-buten.sdf
+Z-but-2-en;Z-2-buten.sdf
+E-but-2-en;E-2-buten.sdf
 pent-1-en;pent-1-en.sdf
 acetylen;acetylen.sdf
 cyklopropan;cyklopropan.sdf
