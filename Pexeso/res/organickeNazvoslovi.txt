@@ -1,5 +1,5 @@
 ﻿butan;butane.pdb
-ethen;ethen.sdf
+ethylen (ethen);ethen.sdf
 metan;metan.sdf
 ethan;ethan.sdf
 propan;propan.sdf
@@ -7,7 +7,7 @@ but-1-en;but-1-en.sdf
 Z-but-2-en;Z-2-buten.sdf
 E-but-2-en;E-2-buten.sdf
 pent-1-en;pent-1-en.sdf
-acetylen;acetylen.sdf
+acetylen (ethyn);acetylen.sdf
 cyklopropan;cyklopropan.sdf
 cyklobutan;cyklobutan.sdf
 cyklohexan;cykloxehan.sdf
@@ -32,7 +32,7 @@ anhydrid kyseliny octové;anhydrid_kyseliny_octove.sdf
 kyselina tereftalová;kyselina_tereftalova.sdf
 anhydrid kyseliny ftalové;anhydrid_kyseliny_ftalove.sdf
 toluen;toluen.sdf
-2,4,6-trinitrotoluen;2,4,6-trinitrotoluen.cgi
+2,4,6-trinitrotoluen (TNT);2,4,6-trinitrotoluen.cgi
 kyselina benzoová;kyselina_benzoova.cgi
 nitril kyseliny octové;nitril_kyseliny_octove.cgi
 methylamin;methylamin.sdf
