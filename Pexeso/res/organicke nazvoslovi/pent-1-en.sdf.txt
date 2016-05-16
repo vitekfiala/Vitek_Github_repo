@@ -1,1 +1,1 @@
-﻿Zástupce alkenů. Umístění dvojné vazby neumožnuje existenci konfiguračních izomerů E a Z (cis a trans).
+﻿Pětiuhlíkatý zástupce alkenů. Dvojná vazba je umístěna v molekule tak, že neumožňuje existenci konfiguračních izomerů E(cis) a Z(trans).
