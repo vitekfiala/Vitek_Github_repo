@@ -1,1 +1,1 @@
-﻿Je to nukleová báze pyrimidinového typu. Vyskytuje se v DNA i RNA a tvoří vodíkové můstky s guaninem.
+﻿Jedná se o nukleovou bázi pyrimidinového typu. Vyskytuje se v DNA i RNA a tvoří vodíkové můstky s guaninem.
