@@ -14,6 +14,17 @@
 					<exclude>**/*.java</exclude>
 				</excludes>
 			</resource>
+			<resource>
+      				<directory>${project.basedir}</directory><!-- from -->
+      				<targetPath>${project.build.directory}</targetPath><!-- to -->
+      				<includes><!-- what -->
+        				<include>README.txt</include>
+      				</includes>
+   			 </resource>
+			<resource>
+      				<directory>${project.basedir}/res</directory><!-- from -->
+      				<targetPath>${project.build.directory}/res</targetPath><!-- to -->
+   			 </resource>
 		</resources>
 		<plugins>
 			<plugin>
@@ -25,12 +36,6 @@
 				</configuration>
 			</plugin>
 
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-jar-plugin</artifactId>
-				<version>2.2</version>
-				<!-- nothing here -->
-			</plugin>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-assembly-plugin</artifactId>
@@ -54,36 +59,13 @@
 					</execution>
 				</executions>
 			</plugin>
-			<plugin>
-        <artifactId>maven-resources-plugin</artifactId>
-        <version>2.7</version>
-        <executions>
-          <execution>
-            <id>copy-resources</id>
-            <!-- here the phase you need -->
-            <phase>validate</phase>
-            <goals>
-              <goal>copy-resources</goal>
-            </goals>
-            <configuration>
-              <outputDirectory>${basedir}/target/res</outputDirectory>
-              <resources>          
-                <resource>
-                  <directory>res</directory>
-                  <filtering>false</filtering>
-                </resource>
-              </resources>              
-            </configuration>            
-          </execution>
-        </executions>
-      </plugin>
 		</plugins>
 	</build>
 	<dependencies>
 		<dependency>
 			<groupId>net.sourceforge.jmol</groupId>
 			<artifactId>jmol</artifactId>
-			<version>13.0.14</version>
+			<version>13.0.9</version>
 		</dependency>
 	</dependencies>
 </project>
