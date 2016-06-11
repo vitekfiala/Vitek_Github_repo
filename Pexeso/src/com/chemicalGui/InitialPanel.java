@@ -58,8 +58,8 @@ public class InitialPanel extends JPanel {
 		
 		viceHracu = new JTextArea();
 		viceHracu.setEditable(false);		
-		viceHracu.setText("Nyní zvolte počet hráčů. Pokud hrajou 2 hráči, "
-				+ "hraje se na to, kdo nalezne více dvojic.\nPokud "
+		viceHracu.setText("Nyní zvolte počet hráčů. Pokud hrají 2 hráči, "
+				+ "vyhraje ten, kdo nalezne více dvojic.\nPokud "
 				+ "hraje jeden hráč, tak se snaží získat co nejvíce bodů. "
 				+ "Počet bodů se spočítá podle rozměrů hrací plochy, "
 				+ "doby hraní a počtu 'chyb'. Chybu hráč udělá, když nenajde "
