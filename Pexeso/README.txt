@@ -8,7 +8,7 @@ Obsah souboru:
 4) Lokace zdrojového kódu 
 
 1) Spuštění hry:
-Hra se spustí dvojklikem na Pexeso.jar.
+Hra se spustí dvojklikem na Chemicke_3D_pexeso.jar.
 Pro spuštění hry je nutné mít nainstalovanou Javu verze min 1.7.
 Pro zjištění, zda je nainstalována potřebná verze Javy udělejte následující:
 	- zmáčkněte tlačítko Start
@@ -17,7 +17,7 @@ Pro zjištění, zda je nainstalována potřebná verze Javy udělejte následuj
 	- napište: "java -version" a zmáčkněte enter
 Pokud je Java nainstalována, vypíše se číslo verze, při chybové hlášce je nutné Javu doinstalovat. (stáhnutí: https://www.java.com/en/download/)
 
-Po nainstalování Javy by se měla změnit ikonka spouštěcího souboru Pexeso.jar.
+Po nainstalování Javy by se měla změnit ikonka spouštěcího souboru Chemicke_3D_pexeso.jar.
 Pokud se nezmění, klikněte na něj pravým tlačítkem myši a zvolte 
 "Otevřít v  programu.." a vyberte Java.
 
